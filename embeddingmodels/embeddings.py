@@ -7,5 +7,5 @@ embeddings = OpenAIEmbeddings(
     dimensions=64
 )
 
-vector = embeddings.invoke("Write a poem on computer?")
+vector = embeddings.invoke("Write a essay on computer?")
 print(vector)
